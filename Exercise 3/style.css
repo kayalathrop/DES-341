@@ -37,12 +37,15 @@ ol {
     width: 550px;
     }
 ul{ 
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 600px;
     line-height: 30px; 
 }
+div {
+    margin: auto;}
 #Part1 {background-color: lightblue;}
 #Part2 {background-color: lightyellow;}
 #Part3 {background-color: lightpink;}
