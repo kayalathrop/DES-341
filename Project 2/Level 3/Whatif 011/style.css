@@ -1,0 +1,10 @@
+.moving { 
+    width: 1500px;
+  
+}
+.box {
+    width: 1500px;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 20px;
+}
