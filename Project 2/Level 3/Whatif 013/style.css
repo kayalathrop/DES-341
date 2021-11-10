@@ -1,41 +1,105 @@
 
-#main {
+#one {
+    border-style: dashed;
+    padding: 10px;
+    width: 65px;
+}
+#two {
+    border-style: solid;
+    padding: 10px;
+    width: 40px;
+}
+
+#three {
+    border-style: hidden;
+    padding: 100px;
+    width: 100px;
+}
+#four {
+    border-style: dotted;
+    padding: 80px;
+    width: 40px;
+    border-radius: 300px;
     text-align: center;
-    position: relative;
-    float: center;
 }
-hr#one {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid red;
-    margin: 1em 0; padding: 0; 
+#five {
+    border-style: hidden hidden solid hidden;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
 }
-hr#two {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid orange;
-    margin: 1em 0; padding: 0; 
+#seven {
+    border-style: hidden hidden dashed hidden;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    clear: left;
 }
-hr#three {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid yellow;
-    margin: 1em 0; padding: 0; 
+#eight {
+    border-style: double;
+    height: 1000px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
 }
-hr#four {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid green;
-    margin: 1em 0; padding: 0; 
+
+#ear {
+    border-style: hidden hidden solid hidden;
+    padding: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 300px;
+    text-align: center;
+    padding-left: 300px;
+    float: right;
 }
-hr#five {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid blue;
-    margin: 1em 0; padding: 0; 
+
+h6 {
+    text-transform: uppercase;
 }
-hr#six {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid indigo;
-    margin: 1em 0; padding: 0; 
+body{
+    width: 1000px;
 }
-hr#seven {
-    display: block; height: 1px;
-    border: 0; border-top: 1px solid violet;
-    margin: 1em 0; padding: 0; 
+
+#same {
+    border-style:groove;
+    height: 80px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    float: right;
+    border-radius: 30px;
+}
+#song {
+    border-style: hidden dashed hidden dashed;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+    float: right;
+ }
+ #list {
+     border-style: hidden;
+     float: right;
+     width: 1px;
+     height: 10000;
+     transform: skew(30deg);
+ }
+ #list2 {
+    border-style: hidden;
+    float: right;
+    width: 1px;
+    height: 10000;
+    transform: skew(-30deg);
+}
+#every {
+    border-style: outset;
+    float: right;
+}
+#every2 {
+    border-style: outset;
+    float: right;
+}
+#every3 {
+    border-style: outset;
+    float: right;
 }
