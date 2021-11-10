@@ -184,7 +184,7 @@ body {
   bottom: 0px;
   left: 500px;
   transform: rotate(375deg);
-  background-color: rgb(57, 62, 4);
+  background-color: rgb(62, 59, 4);
 
 }
 100% {
@@ -192,7 +192,7 @@ body {
   bottom: -300px;
   left: 466px;
   transform: rotate(470deg);
-  background-color: rgb(42, 45, 4);
+  background-color: rgb(62, 51, 4);
 
 }
 }
