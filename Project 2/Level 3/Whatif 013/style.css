@@ -1,106 +1,41 @@
 
-#lastnight {
-border-style: groove;
-padding-top: 10px;
-padding-bottom: 10px;
-width: 50px;
-text-align: center;
-}
-h1 
-{
-   text-transform: capitalize;
-}
-#here{
-    border-style: groove;
-    padding-top: 10px;
-    padding-bottom: 10px;  
-    width: 400px;
-    text-align:center; 
-}
-#night{
-    border-style:solid;
-    width: 300px;
-    height: 100px;
-    border-color: black;
-    background-color: black;
-    margin: -30px;
-}
-#dashed{
-    border-style:dotted;
-    text-align:center;
-    width: 800px;
-    height: 40px;
-    padding-top: 20px;
-}
-#list {
-    border-style:hidden;
-    float: right;
-    width: 800px;
-    text-align:center;
+#main {
+    text-align: center;
     position: relative;
+    float: center;
 }
-#list2 {
-    border-style:solid;
-    float: right;
-    width: 800px;
-    text-align:center;
-    position: relative;
+hr#one {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid red;
+    margin: 1em 0; padding: 0; 
 }
-#list3 {
-    border-style:hidden;
-    float: right;
-    width: 800px;
-    text-align:center;
-    position: relative;
-    transform: rotate(20deg);
+hr#two {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid orange;
+    margin: 1em 0; padding: 0; 
 }
-#list4 {
-    border-style: hidden hidden solid hidden;
-    border-radius: .5px;
-    float: right;
-    width: 800px;
-    text-align:center;
-    position: relative;
-    border-color: green;
+hr#three {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid yellow;
+    margin: 1em 0; padding: 0; 
 }
-#list5 {
-    border-style:hidden;
-    border-radius: .5px;
-    float: right;
-    width: 800px;
-    text-align:center;
-    position: relative;
-    line-height: 1px;
+hr#four {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid green;
+    margin: 1em 0; padding: 0; 
 }
-#list6 {
-    border-style:hidden;
-    border-radius: .5px;
-    float: right;
-    width: 800px;
-    text-align:center;
-    position: relative;
-    line-height: 1px;
+hr#five {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid blue;
+    margin: 1em 0; padding: 0; 
 }
-
-#break {
-    background-color: black;
-    width: 40px;
-    height: 3px;
-    transform: rotate(125deg);
-    left: 1000px;
+hr#six {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid indigo;
+    margin: 1em 0; padding: 0; 
 }
-#diamond {
-    border-style:solid;
-    width: 70px;
-    height: 70px;
-    transform: rotate(45deg);
-    float: right;
-    position: absolute;
-    left: 350px;
-    padding-top: 7px;
-    
-}
-h6 {
-    size: 4px;
-  
+hr#seven {
+    display: block; height: 1px;
+    border: 0; border-top: 1px solid violet;
+    margin: 1em 0; padding: 0; 
 }
