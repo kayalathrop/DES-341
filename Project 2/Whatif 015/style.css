@@ -2,23 +2,42 @@
 body {
     position: relative;
 }
+#header {
+    position: absolute;
+    top:130px;
+    left: 750px;
+    line-height: 40px;
+}
+#title {
+    text-align: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 32px;
+    width: 1000px;
+}
+#shel {
+    text-align: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: Helvetica;
+    font-size: 18px;
+   
+}
 #navsection {
+    font-weight: lighter;
     position: sticky;
     top: 20px;
     width: 1665px;
 }
 #navigation {
-    font-size: 16pt;
+    font-size: 12pt;
     font-family: Helvetica, sans-serif;
-    font-weight: bolder;
     text-transform: uppercase;
     letter-spacing: 0pt;
     line-height: normal;
     padding-top: 10px;
     padding: 10px;
     padding-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
     width: 8em;
     color: black;
     text-decoration: none;
