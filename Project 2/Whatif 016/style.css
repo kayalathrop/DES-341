@@ -53,6 +53,7 @@ a:visited { text-decoration: none;color: black; }
 a:hover { text-decoration: none; color: grey;}
 
 a:active { text-decoration: none;color: black; }
+
 #poem { font-family:Impact;
     letter-spacing: 2px;
  }
