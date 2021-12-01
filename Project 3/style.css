@@ -1,10 +1,40 @@
 body{
-    position: relative;
+ height: 1200px;
+  position: relative;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 2000%;
+
+-webkit-animation: rainbow 80s ease infinite;
+-z-animation: rainbow 80s ease infinite;
+-o-animation: rainbow 80s ease infinite;
+  animation: rainbow 80s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
 }
 #bird {
 position: absolute;
-bottom: 40px;
+top: 0px;
 right: 50px;
+animation: pulse 3s infinite;
 
 }
 
@@ -18,6 +48,7 @@ h2 {
 li {
     line-height: 22px;
 }
+
 #head {
     width: 150px;
     height: 150px;
@@ -39,31 +70,41 @@ li {
     right: 220px;
   }
   #tail {
-    width: 55px; 
-    height: 170px;
+    width: 40px; 
+    height: 300px;
     background: rgb(0, 170, 255);
     /* Skew */
     -webkit-transform: skew(27deg); 
-    -moz-transform: skew(26deg); 
+    -moz-transform: skew(27deg); 
     -o-transform: skew(27deg);
-    transform: skew(27deg);
+    transform: skew(27deg) rotate(-10deg);
     position: absolute;
-    top: 700px;
-    right: 150px;
-
+    top: 546px;
+    right: 203px;
  }
-
+ #tailtwo {
+  width: 50px; 
+  height: 200px;
+  background: rgb(0, 113, 170);;
+  /* Skew */
+  -webkit-transform: skew(27deg); 
+  -moz-transform: skew(27deg); 
+  -o-transform: skew(27deg);
+  transform: skew(27deg) rotate(-10deg);
+  position: absolute;
+  top: 646px;
+  right: 173px;
+}
 
   #beak {
       position: absolute;
-      left: 76px;
-      bottom: 188px;
+
   }
   #beaktop{
     width: 0;
     height: 0;
-    border-top: 60px solid rgb(255, 208, 0);
-    border-left: 75px solid transparent;
+    border-top: 50px solid rgb(255, 208, 0);
+    border-left: 65px solid transparent;
     position: absolute;
     top: 528px;
     right: 448px;
@@ -80,33 +121,188 @@ li {
     transform: rotate(-60deg);
   }
 
-  
-#triangle, #triangle:before, #triangle:after { width: 4.8em; height: 4.8em; }
-#triangle {
-    position: absolute;
-    top: 435px;
-    right: 402px;
-	overflow: hidden;
-	position: relative;
-	margin: 7em auto 0;
-	border-radius: 20%;
-	transform: translateY(50%) rotate(58deg) skewY(30deg) scaleX(.866);
-	cursor: pointer;
-	pointer-events: none;
-} 
-#triangle:before, #triangle:after {
-	position: absolute;
-	background: rgb(0, 170, 255);
-	pointer-events: auto;
-	content: '';
+#eye {
+  position: absolute;
+
+  right: 403px;
+  top: 475px;
+  background: rgb(210, 240, 255);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transform: rotate(100deg);
+  margin-top: 50px;
+  margin-left: 20px;
+
 }
-#triangle:before {
-	border-radius: 20% 20% 20% 53%;
-	transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
-			skewX(30deg) scaleY(.866) translateX(-24%);
+#eyetwo {
+  position: absolute;
+
+  right: 402px;
+  top: 473px;
+  background: rgb(0, 113, 170);
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transform: rotate(100deg);
+  margin-top: 50px;
+  margin-left: 20px;
+
 }
-#triangle:after {
-	border-radius: 20% 20% 53% 20%;
-	transform: scaleX(1.155) skewY(-30deg) rotate(-30deg) translateY(-42.3%) 
-			skewX(-30deg) scaleY(.866) translateX(24%);
+#wing {
+  position: absolute;
+}
+#wingone {
+  position: absolute;
+  top: 600px;
+  right:200px;
+  height: 190px;
+  width: 195px;
+  background: rgb(127, 212, 254);
+  border-radius: 38% 62% 0% 87% / 33% 86% 14% 66% ;
+}
+#wingtwo {
+  position: absolute;
+  top: 600px;
+  right:200px;
+  height: 205.5px;
+  width: 216px;
+  background: rgb(0, 113, 170);
+  border-radius: 38% 62% 0% 87% / 33% 86% 14% 66% ;
+}
+ @keyframes pulse {
+  0%{transform: scale(90%) }
+  50%{transform: scale(100%)}
+  100%{transform: scale(90%)}
+ }
+
+
+ .muzieknootjes {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  min-width: 300px;
+  height: 200px;
+  border: 0px solid white;
+}
+.muzieknootjestwo {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  width: 100%;
+  min-width: 300px;
+  height: 200px;
+  border: 0px solid white;
+}
+.muzieknootjesthree {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 600px;
+  width: 100%;
+  min-width: 300px;
+  height: 200px;
+  border: 0px solid white;
+}
+.muzieknootjesfour {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 800px;
+  left: 200px;
+  width: 100%;
+  min-width: 300px;
+  height: 200px;
+  border: 0px solid white;
+}
+
+
+.noot-1,
+.noot-2,
+.noot-3,
+.noot-4 {
+  position: absolute;
+  animation: notes 2s infinite linear;
+  font-size: 35px;
+  opacity: 0;
+}
+
+.noot-1 {
+  top: 60px;
+  left: 0;
+  animation-delay: 0.5s;
+}
+
+.noot-2 {
+  top: 30px;
+  left: 30%;
+  animation-delay: 1s;
+}
+
+.noot-3 {
+  top: 90px;
+  left: 60%;
+  animation-delay: 1.5s;
+}
+
+.noot-4 {
+  top: 40px;
+  left: 90%;
+  animation-delay: 2s;
+}
+.noot-5,
+.noot-6,
+.noot-7,
+.noot-8 {
+  position: absolute;
+  animation: notes 2s infinite linear;
+  font-size: 35px;
+  opacity: 0;
+}
+
+.noot-5 {
+  top: 60px;
+  left: 90%;
+  animation-delay: 0.5s;
+}
+
+.noot-6 {
+  top: 30px;
+  left: 60%;
+  animation-delay: 1s;
+}
+
+.noot-7 {
+  top: 90px;
+  left: 30%;
+  animation-delay: 1.5s;
+}
+
+.noot-8 {
+  top: 40px;
+  left: 0%;
+  animation-delay: 2s;
+}
+
+@keyframes notes {
+  0% {
+    transform: scale(1) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.5) translate(50%, -50%);
+  }
+  80% {
+    opacity: 0;
+    transform: scale(1.5) translate(100%, -100%);
+  }
+  100% {
+    transform: scale(1.5) translate(100%, -100%);
+    opacity: 0;
+  }
 }
