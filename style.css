@@ -111,10 +111,12 @@ a:hover {
     position: absolute;
     left: 600px;
     align-content: center;
-    width: 700px;
+    height: 200px;
     font-size: 34px;
     line-height: 64px;
     padding: 50px;
+
+    
 }
 #pagethree {
     position: absolute;

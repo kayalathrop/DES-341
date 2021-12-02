@@ -1,0 +1,54 @@
+body {
+    position: relative;}
+h1 {
+    text-align: center;
+    font-weight:normal;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+}
+li {
+    line-height: 22px;
+}
+
+h4{
+    font-size: 32px;
+    font-weight: bolder;
+}
+#click {
+    position: absolute;
+    top: 400px;
+    left: 690px;
+    padding: 20px;
+    background: rgb(40, 176, 255);
+    width: 250px;
+    text-align: center;
+    border-radius: 50px;
+}
+#click:hover {
+    padding: 20px;
+    background: rgb(134, 210, 254);
+    width: 250px;
+    text-align: center;
+    border-radius: 50px;
+}
+a {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+   
+}
+a:visited {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
