@@ -194,3 +194,33 @@ a:hover {
     text-transform: uppercase;
 
 }
+
+#back {
+    position: absolute;
+    top: 780px;
+    left: -520px;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 110px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+#back:hover {
+    position: absolute;
+    top: 780px;
+    left: -520px;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 110px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: white;
+}
